@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.0                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.0
+Exec   : setInterfaceFoam
+Date   : Jul 01 2018
+Time   : 19:48:40
+Host   : "donatello.ecn.purdue.edu"
+PID    : 27736
+I/O    : uncollated
+Case   : /home/donatello/a/lu565/OpenFOAM/lu565-5.0/run/NewGeo/NewDiv/divDy1
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading interfaceProfile
+
+Reading phase field alpha.water
+
+Unperturbed interface normal = (0.02 0 0)
+
+Interface tangential direction = (0 1 0)
+
+Channel width = 0.05
+
+Amplitudes = 1(0.2)
+
+Setting the perturbed interface
+
+End
+
